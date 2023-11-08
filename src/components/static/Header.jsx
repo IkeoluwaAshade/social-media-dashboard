@@ -79,5 +79,12 @@ const Social = styled.div`
 
 const Toggle = styled.div`
     display: flex;
+    cursor: pointer;
+    
+    &:hover{
+        color: skyblue;
+        transition: background-color 0.3s;
+    }
+    
 `
 
