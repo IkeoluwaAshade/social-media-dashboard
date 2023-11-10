@@ -8,7 +8,9 @@ const Card = ({ userName, totalFollowers, myIcon, Followers }) => {
     <CardBox>
         <UpperCardBox>
             <SecondComp>
-                <Icon>{myIcon}</Icon>
+                <Icon>
+                    <img src={myIcon} alt="" />
+                </Icon>
                 <span>{userName}</span>
             </SecondComp>
 

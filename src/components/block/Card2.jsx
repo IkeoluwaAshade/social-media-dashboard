@@ -10,7 +10,9 @@ const Card2 = ({ likes, myicon, numbers, percentage }) => {
         <LowerCardBox>
             <First>
                 <PageView>{likes}</PageView>
-                <Icon> {myicon} </Icon>
+                <Icon>
+                    <img src={myicon} alt="" />
+                </Icon>
             </First>
 
             <Second>
