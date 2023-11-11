@@ -27,7 +27,7 @@ const Card2 = ({ likes, myicon, numbers, percentage }) => {
 export default Card2
 
 const CardBox = styled.div`
-  
+
 `
 
 const LowerCardBox = styled.div`
@@ -47,6 +47,12 @@ background-color: #f0f3fa;
    justify-content: center;
    align-items: center;
    margin: 10px;
+
+   cursor: pointer;
+   &:hover{
+        background-color: hsl(225, 100%, 98%);
+
+    }
 `
 
 const First = styled.div`
@@ -68,7 +74,7 @@ const Icon = styled.div`
 
 
 const Second = styled.div`
-     width: 70%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;

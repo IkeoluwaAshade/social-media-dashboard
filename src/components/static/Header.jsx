@@ -42,7 +42,7 @@ const Header = () => {
 export default Header
 
 const Container = styled.div`
-/* background-color: aqua; */
+background-color: hsl(0, 0%, 100%);
 width: 100%;
 height: 120px;
 
