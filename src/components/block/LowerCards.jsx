@@ -14,27 +14,32 @@ const LowerCards = () => {
     <OverallContainer>
 
       <Overview>
+
         <OverviewText>
+
           <h2>Overview-Today</h2>
+          
         </OverviewText>
+
       </Overview>
-    <Container>
 
-      
+      <Container>
         
-      <Wrapper>
+        <Wrapper>
 
-        <Card2 likes='Page Views' numbers='87' myicon={Facebook} percentage="3%"/>
-        <Card2 likes='Likes' numbers='52'  myicon={Facebook} percentage="2%"/>
-        <Card2 likes='Likes' myicon={Instagram} numbers="5462" percentage="2257%" />
-        <Card2 likes='Likes' myicon={Instagram} numbers="52k" percentage="13757%" />
-        <Card2 likes='Likes' myicon={twitter} numbers="117k" percentage="303%" />
-        <Card2 likes='Retweets' myicon={twitter} numbers="507k" percentage="553%"  />
-        <Card2 likes='Likes' myicon={youtube} numbers="107k" percentage="19%" />
-        <Card2 likes='Likes' myicon={youtube} numbers="1407k" percentage="12%"  />
+          <Card2 likes='Page Views' numbers='87' myicon={Facebook} percentage="3%"/>
+          <Card2 likes='Likes' numbers='52'  myicon={Facebook} percentage="2%"/>
+          <Card2 likes='Likes' myicon={Instagram} numbers="5462" percentage="2257%" />
+          <Card2 likes='Likes' myicon={Instagram} numbers="52k" percentage="13757%" />
+          <Card2 likes='Likes' myicon={twitter} numbers="117k" percentage="303%" />
+          <Card2 likes='Retweets' myicon={twitter} numbers="507k" percentage="553%"  />
+          <Card2 likes='Likes' myicon={youtube} numbers="107k" percentage="19%" />
+          <Card2 likes='Likes' myicon={youtube} numbers="1407k" percentage="12%"  />
 
-      </Wrapper>
-    </Container>
+        </Wrapper>
+
+      </Container>
+
     </OverallContainer>
   )
 }
