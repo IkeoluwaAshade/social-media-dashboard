@@ -15,7 +15,7 @@ const Header = () => {
         <Wrapper>
             <Logo>
                 <Social>Social Media Dashboard</Social>
-                <small>Tootal Follower 23,004</small>
+                <small>Total Follower 23,004</small>
             </Logo>
 
             
@@ -69,6 +69,7 @@ const Logo = styled.div `
     small{
         font-size: 14px;
         font-weight: 600;
+        color: hsl(228, 12%, 44%);
     }
 `
 
