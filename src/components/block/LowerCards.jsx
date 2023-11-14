@@ -5,6 +5,8 @@ import Facebook from '../../assets/icon-facebook.svg'
 import Instagram from '../../assets/icon-instagram.svg'
 import twitter from '../../assets/icon-twitter.svg'
 import youtube from '../../assets/icon-youtube.svg'
+import Dropicon from '../../assets/icon-down.svg'
+import Upicon from '../../assets/icon-up.svg'
 
 
 
@@ -27,14 +29,14 @@ const LowerCards = () => {
         
         <Wrapper>
 
-          <Card2 likes='Page Views' numbers='87' myicon={Facebook} percentage="3%"/>
-          <Card2 likes='Likes' numbers='52'  myicon={Facebook} percentage="2%"/>
-          <Card2 likes='Likes' myicon={Instagram} numbers="5462" percentage="2257%" />
-          <Card2 likes='Likes' myicon={Instagram} numbers="52k" percentage="13757%" />
-          <Card2 likes='Likes' myicon={twitter} numbers="117k" percentage="303%" />
-          <Card2 likes='Retweets' myicon={twitter} numbers="507k" percentage="553%"  />
-          <Card2 likes='Likes' myicon={youtube} numbers="107k" percentage="19%" />
-          <Card2 likes='Likes' myicon={youtube} numbers="1407k" percentage="12%"  />
+          <Card2 likes='Page Views' numbers='87' myicon={Facebook} percentage="3%" dropIcon={Upicon} dropColor="hsl(163, 72%, 41%)" />
+          <Card2 likes='Likes' numbers='52'  myicon={Facebook} percentage="2%" dropIcon={Dropicon}  dropColor="hsl(356, 69%, 56%)"/>
+          <Card2 likes='Likes' myicon={Instagram} numbers="5462" percentage="2257%" dropIcon={Upicon} dropColor="hsl(163, 72%, 41%)" />
+          <Card2 likes='Likes' myicon={Instagram} numbers="52k" percentage="13757%" dropIcon={Upicon} dropColor="hsl(163, 72%, 41%)" />
+          <Card2 likes='Likes' myicon={twitter} numbers="117k" percentage="303%" dropIcon={Upicon} dropColor="hsl(163, 72%, 41%)" />
+          <Card2 likes='Retweets' myicon={twitter} numbers="507k" percentage="553%" dropIcon={Upicon} dropColor="hsl(163, 72%, 41%)" />
+          <Card2 likes='Likes' myicon={youtube} numbers="107k" percentage="19%" dropIcon={Dropicon} dropColor="hsl(356, 69%, 56%)" />
+          <Card2 likes='Likes' myicon={youtube} numbers="1407k" percentage="12%" dropIcon={Dropicon} dropColor="hsl(356, 69%, 56%)"  />
 
         </Wrapper>
 

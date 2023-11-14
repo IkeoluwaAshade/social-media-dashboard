@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import Dropicon from '../../assets/icon-down.svg'
 
 
 
-const Card2 = ({ likes, myicon, numbers, percentage }) => {
+
+const Card2 = ({ likes, myicon, numbers, percentage, dropIcon, dropColor }) => {
   return (
     <CardBox>
         <LowerCardBox>
@@ -17,7 +17,12 @@ const Card2 = ({ likes, myicon, numbers, percentage }) => {
 
             <Second>
                 <Number>{numbers}</Number>
-                <DropIcon><img src={Dropicon} alt='Drop Icon' />{percentage}</DropIcon>
+
+                <Div dropsCol ={dropColor} > 
+                <DropIcon> 
+                    <img src={dropIcon} alt='Drop Icon' /><span>{percentage}</span>
+                </DropIcon>
+                </Div>
             </Second>
         </LowerCardBox>
     </CardBox>
@@ -75,12 +80,25 @@ const Second = styled.div`
     align-items: center;
 `
 
+const Div = styled.div`
+    display: flex;
+    color: ${(props) => props.dropsCol};
+`
+
 const Number = styled.div`
     color: hsl(230, 17%, 14%);
     font-size: 45px;
     font-weight: 700;
+
 `
 
 const DropIcon = styled.div`
-    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 800;
+
+   span {
+    padding-left: 5px;
+   }
 `
