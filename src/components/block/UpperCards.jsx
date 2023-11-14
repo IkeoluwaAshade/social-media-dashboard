@@ -17,13 +17,13 @@ const UpperCards = () => {
     <Container>
       <Wrapper>
 
-        <Card userName="@nathanf" totalFollowers="1987" myIcon={Facebook} Followers="Followers" headColor="hsl(208, 92%, 53%)" dropColor="hsl(163, 72%, 41%)" dropicon={Dropicon} />
+        <Card userName="@nathanf" totalFollowers="1987" myIcon={Facebook} Followers="Followers" headColor="hsl(208, 92%, 53%)" dropColor="hsl(163, 72%, 41%)" dropicon={Upicon} />
 
         <Card userName="@nathanf" totalFollowers="1044" myIcon={Twitter} Followers="Followers" headColor="hsl(203, 89%, 53%)"dropColor="hsl(163, 72%, 41%)" dropicon={Upicon} />
 
-        <Card userName="@realnathanf" totalFollowers="11k" myIcon={Instagram} Followers="Followers" headColor="linear-gradienthsl(37, 97%, 70%) to hsl(329, 70%, 58%)" dropColor="hsl(163, 72%, 41%)" />
+        <Card userName="@realnathanf" totalFollowers="11k" myIcon={Instagram} Followers="Followers" headColor="linear-gradienthsl(37, 97%, 70%) to hsl(329, 70%, 58%)" dropColor="hsl(163, 72%, 41%)" dropicon={Upicon} />
 
-        <Card userName="Nathan F." totalFollowers="8239" myIcon={youTube} Followers="Subscribers" headColor="hsl(348, 97%, 39%)" dropColor="hsl(356, 69%, 56%)"  />
+        <Card userName="Nathan F." totalFollowers="8239" myIcon={youTube} Followers="Subscribers" headColor="hsl(348, 97%, 39%)" dropColor="hsl(356, 69%, 56%)" dropicon={Dropicon}  />
 
       </Wrapper>
     </Container>
