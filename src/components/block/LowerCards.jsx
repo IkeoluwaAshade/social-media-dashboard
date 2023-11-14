@@ -33,10 +33,10 @@ const LowerCards = () => {
           <Card2 likes='Likes' numbers='52'  myicon={Facebook} percentage="2%" dropIcon={Dropicon}  dropColor="hsl(356, 69%, 56%)"/>
           <Card2 likes='Likes' myicon={Instagram} numbers="5462" percentage="2257%" dropIcon={Upicon} dropColor="hsl(163, 72%, 41%)" />
           <Card2 likes='Likes' myicon={Instagram} numbers="52k" percentage="13757%" dropIcon={Upicon} dropColor="hsl(163, 72%, 41%)" />
-          <Card2 likes='Likes' myicon={twitter} numbers="117k" percentage="303%" dropIcon={Upicon} dropColor="hsl(163, 72%, 41%)" />
-          <Card2 likes='Retweets' myicon={twitter} numbers="507k" percentage="553%" dropIcon={Upicon} dropColor="hsl(163, 72%, 41%)" />
-          <Card2 likes='Likes' myicon={youtube} numbers="107k" percentage="19%" dropIcon={Dropicon} dropColor="hsl(356, 69%, 56%)" />
-          <Card2 likes='Likes' myicon={youtube} numbers="1407k" percentage="12%" dropIcon={Dropicon} dropColor="hsl(356, 69%, 56%)"  />
+          <Card2 likes='Likes' myicon={twitter} numbers="117" percentage="303%" dropIcon={Upicon} dropColor="hsl(163, 72%, 41%)" />
+          <Card2 likes='Retweets' myicon={twitter} numbers="507" percentage="553%" dropIcon={Upicon} dropColor="hsl(163, 72%, 41%)" />
+          <Card2 likes='Likes' myicon={youtube} numbers="107" percentage="19%" dropIcon={Dropicon} dropColor="hsl(356, 69%, 56%)" />
+          <Card2 likes='Likes' myicon={youtube} numbers="1407" percentage="12%" dropIcon={Dropicon} dropColor="hsl(356, 69%, 56%)"  />
 
         </Wrapper>
 

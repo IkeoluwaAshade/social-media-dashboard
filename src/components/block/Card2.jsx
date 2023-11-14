@@ -87,7 +87,7 @@ const Div = styled.div`
 
 const Number = styled.div`
     color: hsl(230, 17%, 14%);
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
 
 `
