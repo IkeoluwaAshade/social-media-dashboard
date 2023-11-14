@@ -1,10 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import Dropicon from '../../assets/icon-down.svg'
-import Upicon from '../../assets/icon-up.svg'
 
 
-const Card = ({ userName, totalFollowers, myIcon, dropicon, Followers, headColor, dropColor }) => {
+
+const Card = ({ userName, totalFollowers, myIcon, dropicon, Followers, headColor, dropColor, dropiconText }) => {
   return (
     <CardBox >
         <UpperCardBox bgCol ={headColor}>
@@ -23,7 +22,7 @@ const Card = ({ userName, totalFollowers, myIcon, dropicon, Followers, headColor
             <FourthComp dropsCol ={dropColor}>
                 
             <Div>
-                <img src={dropicon} alt='Drop Icon' /><span>12 Today</span>
+                <img src={dropicon} alt='Drop Icon' /><span>{dropiconText}</span>
             </ Div>
 
                 
