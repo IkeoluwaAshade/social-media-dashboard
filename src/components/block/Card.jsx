@@ -4,7 +4,7 @@ import Dropicon from '../../assets/icon-down.svg'
 import Upicon from '../../assets/icon-up.svg'
 
 
-const Card = ({ userName, totalFollowers, myIcon, Followers, headColor, dropColor }) => {
+const Card = ({ userName, totalFollowers, myIcon, dropicon, Followers, headColor, dropColor }) => {
   return (
     <CardBox >
         <UpperCardBox bgCol ={headColor}>
@@ -22,7 +22,9 @@ const Card = ({ userName, totalFollowers, myIcon, Followers, headColor, dropColo
 
             <FourthComp dropsCol ={dropColor}>
                 
-                <span><img src={Upicon} alt='Drop Icon' />12 Today</span>
+            <Div>
+                <img src={dropicon} alt='Drop Icon' /><span>12 Today</span>
+            </ Div>
 
                 
             </FourthComp>
@@ -98,4 +100,16 @@ const FourthComp = styled.div`
 `
 
 const Icon = styled.div``
+
+const Div = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+     
+
+span {
+    padding-left: 5px;
+}
+`
 

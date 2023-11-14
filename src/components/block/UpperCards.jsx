@@ -6,6 +6,7 @@ import Twitter from '../../assets/icon-twitter.svg'
 import Instagram from '../../assets/icon-instagram.svg'
 import youTube from '../../assets/icon-youtube.svg'
 import Dropicon from '../../assets/icon-down.svg'
+import Upicon from '../../assets/icon-up.svg'
 
 
 
@@ -16,9 +17,9 @@ const UpperCards = () => {
     <Container>
       <Wrapper>
 
-        <Card userName="@nathanf" totalFollowers="1987" myIcon={Facebook} Followers="Followers" headColor="hsl(208, 92%, 53%)" dropColor="hsl(163, 72%, 41%)" />
+        <Card userName="@nathanf" totalFollowers="1987" myIcon={Facebook} Followers="Followers" headColor="hsl(208, 92%, 53%)" dropColor="hsl(163, 72%, 41%)" dropicon={Dropicon} />
 
-        <Card userName="@nathanf" totalFollowers="1044" myIcon={Twitter} Followers="Followers" headColor="hsl(203, 89%, 53%)"dropColor="hsl(163, 72%, 41%)" />
+        <Card userName="@nathanf" totalFollowers="1044" myIcon={Twitter} Followers="Followers" headColor="hsl(203, 89%, 53%)"dropColor="hsl(163, 72%, 41%)" dropicon={Upicon} />
 
         <Card userName="@realnathanf" totalFollowers="11k" myIcon={Instagram} Followers="Followers" headColor="linear-gradienthsl(37, 97%, 70%) to hsl(329, 70%, 58%)" dropColor="hsl(163, 72%, 41%)" />
 
